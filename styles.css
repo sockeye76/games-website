@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    background: #000020;
+    color: #FFFFFF;
+}
+
+a {
+    color: #00FFFF;
+}
+
+a:visited {
+    color: #00BBBB;
+}
+
+ul {
+    list-style-type: none;
+    background: #003030;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.downloadText {
+    display: inline;
+}
+
+.downloadCode {
+    display: inline;
+    background: #003030;
+    padding: 8px;
+    border-radius: 8px;
+}
