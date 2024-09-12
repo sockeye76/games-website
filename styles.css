@@ -12,8 +12,35 @@ body {
     color: #ffffff;
 }
 
+h1 {
+    margin: 20px 0 0 0;
+}
+
 h2 {
+    margin: 10px 0 0 0;
     font-weight: normal;
+    font-style: italic;
+}
+
+ul {
+    margin: 15px 0 0 0;
+    padding-left: 20px;
+}
+
+.story {
+    margin: 15px 0 0 0;
+    padding-left: 10px;
+    border-left: solid #ffffff;
+}
+
+.instructions {
+    margin: 15px 0 0 0;
+}
+
+.github {
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 15px;
 }
 
 a {
@@ -63,10 +90,17 @@ a:visited {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding-top: 30px;
     width: 100%;
+}
+
+.tutorial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
@@ -90,7 +124,7 @@ a:visited {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #001220;
+    background: #000f1e;
 }
 
 .downloadButton {
