@@ -81,7 +81,7 @@ a:visited {
 
 .credits {
     display: flex;
-    font-family: links-awakening;
+    font-family: links-awakening, "Noto Sans", "Trebuchet MS", Optima, Verdana, sans-serif;
     font-size: 20px;
     padding-right: 24px;
 }
